@@ -1,7 +1,9 @@
+#include <stdio.h>
+
 void ft_print_reverse_alphabet(void){
     char c;
 
-    for(c = 'a'; c <= 'z'; ++c)
+    for(c = 'z'; c >= 'a'; --c)
         printf("%c ", c);
 }
 
